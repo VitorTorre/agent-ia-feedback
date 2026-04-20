@@ -28,11 +28,9 @@ O sistema é modular, escalável e pode ser integrado via API REST, CLI ou dashb
 | **Acionabilidade** | Entregar insights como: *“45% dos feedbacks negativos mencionam tempo de carregamento – priorizar otimização no mobile”*. |
 | **Flexibilidade** | Permitir troca de provedores de IA (OpenAI, Anthropic, Google, Together, modelos locais). |
 
----
 
 ## 🧠 Arquitetura (stack real do projeto)
 
-```mermaid
 flowchart LR
     A[Feedbacks] --> B(Pré-processamento)
     B --> C{Classificador}
